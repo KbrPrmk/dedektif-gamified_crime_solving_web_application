@@ -80,3 +80,6 @@ $dbname = "dedektif";
 * **SQL Injection Prevention:** Utilization of Prepared Statements to secure all database queries.
 * **Secure Authentication:** Implementation of password_hash() and password_verify() for industry-standard credential protection.
 * **Session Management:** Server-side session integrity checks to protect user progress and data.
+
+## ⚖️ License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

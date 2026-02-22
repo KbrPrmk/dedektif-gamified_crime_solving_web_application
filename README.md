@@ -54,8 +54,10 @@ The repository is organized as follows to ensure easy navigation and modularity:
 
 ## **⚙️ Installation & Setup**
 **1. Clone the Repository**
+```bash
 git clone [https://github.com/KbrPrmk/detective-gamified_crime_solving_web_application.git](https://github.com/KbrPrmk/detective-gamified_crime_solving_web_application.git)
 cd detective-gamified_crime_solving_web_application
+```
 
 **2. Database Configuration**
 * Create a new database named dedektif in your local environment (e.g., phpMyAdmin).

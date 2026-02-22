@@ -42,5 +42,31 @@ The core of the application relies on a robust relational database schema to man
 
 1. **Clone the Project:**
    ```bash
-   git clone [https://github.com/yourusername/detective-web-app.git](https://github.com/yourusername/detective-web-app.git)
-   cd detective-web-app
+   git clone [https://github.com/KbrPrmk/detective-gamified_crime_solving_web_application.git](https://github.com/KbrPrmk/detective-gamified_crime_solving_web_application.git)
+   cd detective-gamified_crime_solving_web_application
+
+2. **Database Configuration:**
+   - Create a database named dedektif in your local environment (e.g., phpMyAdmin).
+   - Import the database/schema.sql file.
+     
+3. **Environment Setup:**
+   - Rename baglan.example.php to baglan.php.
+   - Update your local credentials:
+
+     git clone [
+     $servername = "localhost";
+     $username   = "root";
+     $password   = "";
+     $dbname     = "dedektif";
+     ]
+   
+4. **Access:**
+   - Start Apache/MySQL and navigate to http://localhost/dedektif.
+
+--
+## 🔒 Security & Optimization
+   - **Sanitized Queries:** Implemented Prepared Statements to mitigate SQL Injection risks.
+   - **Secure Authentication:** Utilizes password_hash() and password_verify() for industry-standard credential management.
+   - **Session Integrity:** Server-side checks ensure that users can only access their authorized progress and data.
+
+--

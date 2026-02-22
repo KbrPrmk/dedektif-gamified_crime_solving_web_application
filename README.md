@@ -53,12 +53,7 @@ The core of the application relies on a robust relational database schema to man
    - Rename baglan.example.php to baglan.php.
    - Update your local credentials:
 
-     git clone [
-     $servername = "localhost";
-     $username   = "root";
-     $password   = "";
-     $dbname     = "dedektif";
-     ]
+     git clone [$servername = "localhost"; $username   = "root"; $password   = ""; $dbname     = "dedektif";]
    
 4. **Access:**
    - Start Apache/MySQL and navigate to http://localhost/dedektif.

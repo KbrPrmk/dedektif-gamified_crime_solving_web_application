@@ -1,8 +1,11 @@
-# Dedektif – Gamified Crime Solving Web Application
+# 🕵️‍♂️ Dedektif: Gamified Crime-Solving Web Application
 
-Dedektif is a PHP-based gamified web application where users take on the role of a detective to solve crime cases by analyzing clues, suspects, and reports.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/detective-web-app)
+[![PHP](https://img.shields.io/badge/PHP-8.x-777BB4.svg?logo=php)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1.svg?logo=mysql)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Users examine case reports, collect hints step by step, take notes, and attempt to identify the correct culprit with limited attempts. As more cases are solved, the user's level increases.
+**Dedektif** is a PHP-powered interactive platform where users step into the shoes of a lead investigator. Analyze crime scenes, cross-examine suspects, and decode complex mysteries to level up your detective rank.
 
 ---
 
